@@ -1,0 +1,36 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "proxy": "http://127.0.0.1:5000/",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-google-maps/api": "^2.18.1",
+    "@syncfusion/ej2-react-inputs": "^21.2.9",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-chat-ui": "0.3.2",
+    "react-dom": "^18.2.0",
+    "react-scripts": "3.0.1",
+    "sass": "^1.64.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

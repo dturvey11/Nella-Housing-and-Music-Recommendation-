@@ -1,0 +1,150 @@
+.App {
+  /*font-family: sans-serif;*/
+  /*text-align: center;*/
+}
+html,
+body {
+  font-family: -apple-system;
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 36px;
+  margin: auto;
+}
+
+.parent{
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  flex-grow: 2;
+  height: 120vh;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+  width: 100vw;
+  background: white;
+}
+.container {
+  width: 50%;
+  
+  margin-top: 10px;
+  background: white;
+  display: inline-block;
+  
+}
+
+
+
+.install {
+  text-align: center;
+  margin: 20px auto;
+}
+
+code {
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 10px 20px;
+}
+
+input {
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  font-size: 16px;
+  padding: 30px;
+  width: 40%;
+  display: inline-block;
+}
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 15px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  float: right;
+  
+  
+  
+}
+.form-control{
+  display: inline-block;
+  width: 80%
+}
+
+input:focus {
+  outline: none;
+}
+
+.chatfeed-wrapper {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  width:100%;
+  height: 85vh;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+#chat-panel {
+  padding: 0px 10px;
+  height: 1000px;
+}
+
+.chat-history {
+  display: block;
+  height: 1000px;
+  min-height: 250px;
+}
+
+.outer {
+  display: block;
+  height: 50%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.inner {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.messagge-input{
+  max-width: 30%;
+  margin: 0 auto;
+  display: inline-block;
+  
+}
